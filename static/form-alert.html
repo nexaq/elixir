@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Document</title>
+    <link href="css/main.css" rel="stylesheet">
+</head>
+</head>
+<body>
+<div class="app semi-col-page">
+    <aside class="aside semi-col-page__aside">
+        <div class="aside__header">
+            <button class="app__button hamburger aside__hamburger hamburger_has-notification"></button>
+            <input type="text" class="aside__search-input" placeholder="Search...">
+        </div>
+        <div class="aside__body">
+            <div class="contact-list">
+                <div class="contact-list__item contact-list__item_active">
+                    <div class="profile-icon contact-list__profile-icon">
+                        <div class="profile-icon__initials">
+                            FB
+                        </div>
+                    </div>
+                    <div class="contact-list__info">
+                        <div class="contact-list__title">Fladimir Budin</div>
+                        <div class="contact-list__description">
+                            И Human Interface Guidelines и Material Design рекомендуют...
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-list__item">
+                    <div class="profile-icon contact-list__profile-icon">
+                        <img class="profile-icon__image" src="img/profile-1.jpg">
+                    </div>
+                    <div class="contact-list__info">
+                        <div class="contact-list__title">Andrew Mathian</div>
+                        <div class="contact-list__description">И Human Interface Guidelines и Material Design
+                            рекомендуют...
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-list__item">
+                    <div class="profile-icon contact-list__profile-icon">
+                        <div class="profile-icon__initials">
+                            RR
+                        </div>
+                    </div>
+                    <div class="contact-list__info">
+                        <div class="contact-list__title">Romi Rain</div>
+                        <div class="contact-list__description">И Human Interface Guidelines и Material Design
+                            рекомендуют...
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-list__item">
+                    <div class="profile-icon contact-list__profile-icon">
+                        <div class="profile-icon__initials">
+                            AO
+                        </div>
+                    </div>
+                    <div class="contact-list__info">
+                        <div class="contact-list__title">Aletta Ocean</div>
+                        <div class="contact-list__description">И Human Interface Guidelines и Material Design
+                            рекомендуют...
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <div class="content semi-col-page__content">
+        <header class="header content__header">
+            <div class="header__titling">
+                <h1 class="header__title">Fladimir Budin</h1>
+                <div class="header__sub-title">@flamy_bud_69</div>
+            </div>
+            <div class="header__extra dropdown">
+                <div class="app__button header__extra-button dropdown__button">
+
+                </div>
+            </div>
+        </header>
+        <main class="main content__main messages content__messages">
+            <div class="messages__date messages__item">
+                <div class="messages__date-label">November 24</div>
+            </div>
+            <div class="message messages__item">
+                <div class="profile-icon message__profile-icon">
+                    <div class="profile-icon__initials message__initials">
+                        FB
+                    </div>
+                </div>
+                <div class="message__inner">
+                    <div class="message__text">
+                        Привет! Смотри, тут всплыл интересный кусок лунной космической истории — НАСА в какой-то момент
+                        попросила Хассельблад адаптировать модель SWC для полетов на Луну. Сейчас мы все знаем что
+                        астронавты летали с моделью 500 EL — и к слову говоря, все тушки этих камер все еще находятся на
+                        поверхности Луны, так как астронавты с собой забрали только кассеты с пленкой.
+                        <br>
+                        <br>
+                        Хассельблад в итоге адаптировал SWC для космоса, но что-то пошло не так и на ракету они так
+                        никогда и не попали. Всего их было произведено 25 штук. Всего их было произведено 25 штук.
+                        <div class="message__timing">11:54</div>
+                    </div>
+                </div>
+            </div>
+            <div class="message message_dark messages__item">
+                <div class="profile-icon message__profile-icon">
+                    <div class="profile-icon__initials message__initials">
+                        TD
+                    </div>
+                </div>
+                <div class="message__inner">
+                    <div class="message__text">
+                        Привет! Смотри, тут всплыл интересный кусок лунной космической истории — НАСА в какой-то момент
+                        попросила Хассельблад адаптировать модель SWC для полетов на Луну. Сейчас мы все знаем что
+                        астронавты летали с моделью 500 EL — и к слову говоря, все тушки этих камер все еще находятся на
+                        поверхности Луны, так как астронавты с собой забрали только кассеты с пленкой.
+                        <br>
+                        <br>
+                        Хассельблад в итоге адаптировал SWC для космоса, но что-то пошло не так и на ракету они так
+                        никогда и не попали. Всего их было произведено 25 штук. Всего их было произведено 25 штук.
+                        <div class="message__timing">11:54</div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <div class="message-control">
+            <div class="message-control__button-wrapper dropdown">
+                <div class="dropdown__list"></div>
+                <button class="app__button dropdown__button message-control__button message-control__button_attach"></button>
+            </div>
+            <div class="message-control__input-wrapper">
+                <textarea name="" class="message-control__input" placeholder="Type your message..."></textarea>
+            </div>
+            <div class="message-control__button-wrapper">
+                <button class="app__button message-control__button message-control__button_send"></button>
+            </div>
+        </div>
+    </div>
+    <div class="alert alert_active">
+        <div class="alert__container">
+            <div class="alert__header">
+                Edit login
+            </div>
+            <div class="alert__body">
+                <div class="form-control">
+                    <label for="login" class="form-control__label">Login</label>
+                    <input type="text" name="login" class="form-control__input" id="login">
+                </div>
+            </div>
+            <div class="alert__footer">
+                <button class="app__button alert__button_confirm">SAVE</button>
+                <button class="app__button alert__button_cancel alert__button_danger">CANCEL</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
